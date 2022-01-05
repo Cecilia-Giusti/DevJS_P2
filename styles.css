@@ -30,4 +30,36 @@ nav li {
     margin-right:10px;
 }
 
+#banner{
+    display:flex;
+    width:100%;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-image{
+    width:100%;
+    height:470px;
+    object-fit: cover; 
+    
+}
+
+#banner-presentation{
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#banner-logo{
+    width:200px;
+}
+
+#banner h1{
+    color:white;
+    font-weight: 400;
+    font-size:2em;
+}
+
 
