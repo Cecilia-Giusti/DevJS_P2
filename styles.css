@@ -1,0 +1,33 @@
+@font-face {
+    font-family:"Roboto";
+    src:"./Roboto/Roboto-Regular.ttf" format ('truetype')
+}
+
+body{
+    margin:0;
+    font-family: Roboto, sans-serif;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header img{
+    height:109px;
+    width:350px;
+    object-fit: cover;
+}
+
+nav ul{
+    display:flex;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 30px; 
+    margin-right:10px;
+}
+
+
